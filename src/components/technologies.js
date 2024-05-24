@@ -16,7 +16,7 @@ const Technologies = (props) => {
     <Fade>
     <Container className="lexend mt-5 pt-5 mb-5 pb-5">
       <h1 className="white">Tecnologias</h1>
-      <Row style={{backgroundColor:"white", borderRadius:30, marginTop:40}}>
+      <Row className="" style={{backgroundColor:"white", borderRadius:7, marginTop:40, marginRight:3, marginLeft:3}}>
         <Col>
         <h1 className="text-center">Web</h1>
         </Col>

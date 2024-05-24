@@ -10,6 +10,18 @@ import AttentionSeeker from "react-awesome-reveal";
 import * as Icon from "react-bootstrap-icons";
 
 const Contact = (props) => {
+  const handleDownload = () => {
+    // Ruta al archivo en la carpeta public
+    const fileUrl = process.env.PUBLIC_URL + '/CV.pdf';
+    
+    // Crea un enlace temporal y haz clic en él
+    const link = document.createElement('a');
+    link.href = fileUrl;
+    link.download = 'CV.pdf'; // Nombre del archivo que se descargará
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
   return (
     <Container className="lexend mt-5 pt-5 mb-5 pb-5">
       <h1 className="white">Contacto</h1>
@@ -30,12 +42,12 @@ const Contact = (props) => {
           >
             <Container >
                 <div className="d-grid justify-content-end">
-                    <a alt="Download CV">
+                    <a alt="Download CV" onClick={handleDownload}>
                 <Icon.Download style={{position:"absolute",right:30, cursor:"pointer"}} size={30} color="white"></Icon.Download></a>
                 </div>
                 
               <Row>
-                <Col md={props.isActual ? 1 : 2}>
+                <Col md={props.isActual ? 1 : 2} className="mb-4">
                   <img
                     width={70}
                     height={80}
