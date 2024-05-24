@@ -1,38 +1,25 @@
-.App {
-  text-align: center;
+/* src/styles/App.css */
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+body{
+  /* background: linear-gradient(90deg, rgba(64,58,58,1) 0%, rgba(46,46,46,1) 100%) !important; */
+  background: #0D1F2D !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.lexend{
+  font-family: "Lexend", sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+main {
+  padding: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+section {
+  margin: 20px 0;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
+/* Otros estilos personalizados */

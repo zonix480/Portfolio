@@ -1,23 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+// src/App.js
+import React from 'react';
+import Header from './components/Header';
+import Home from './components/Home';
+import Experience from './components/Experience';
+import Contact from './components/Contact';
+import Technologies from './components/technologies';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App" style={{height:'80vh'}}>
+      <Header />
+      <main>
+        <section id="home" style={{height: '90vh'}}>
+          <Home/>
+        </section>
+        <section id="experience" >
+          <Experience></Experience>
+        </section>
+        <section id="technology" >
+          <Technologies></Technologies>
+        </section>
+        <section id="contact">
+          <Contact></Contact>
+        </section>
+      </main>
     </div>
   );
 }

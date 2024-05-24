@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+.back{
+    background: #0D1F2D !important;
+  }
+.lexend{
+    font-family: "Lexend", sans-serif;
+  }
+.shadowWhite{
+    box-shadow: rgba(253, 253, 253, 0.137) 0px 30px 90px;
+}
+.imageShadow{
+    filter: drop-shadow(rgba(253, 253, 253, 0.137) 0px 30px 90px);
+}
+.white{
+    color: white;
+}
+
+.h100 {
+    height: 100%;
+  }
