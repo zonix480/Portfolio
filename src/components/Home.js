@@ -25,7 +25,7 @@ Solida experiencia en la creación de aplicaciones mobiles y web dínamicas y es
             </Col>
             <Col className='d-flex flex-column justify-content-center align-items-center order-sm-1 order-xs-1'>
             <Bounce cascade>
-            <img className='text-center imageShadow' width={300} src={memoji} alt="JulianMemoji" />
+            <img className='text-center ' width={300} src={memoji} alt="JulianMemoji" />
             </Bounce>
             </Col>
         </Row>
