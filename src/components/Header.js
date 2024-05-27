@@ -23,7 +23,7 @@ const Header = () => {
     <Navbar fixed='top' className='p-3 lexend navbar-fixed-top' style={{ transition: '1s ease', backgroundColor: navBackground ? 'rgba(74, 157, 156, 1)' : 'transparent'}} variant="dark" expand="lg">
       <Navbar.Brand className='pl-4' style={{paddingLeft:'50px'}} href="#home">J</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
-      <Navbar.Collapse id="basic-navbar-nav">
+      <Navbar.Collapse  id="basic-navbar-nav">
         <Nav className="ms-auto text-center">
           <Nav.Link className='white' href="#about" >INICIO</Nav.Link>
           <Nav.Link href="#experience">EXPERIENCIA</Nav.Link>
