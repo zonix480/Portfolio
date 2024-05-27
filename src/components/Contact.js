@@ -48,7 +48,7 @@ const Contact = (props) => {
                 
               <Row>
                 <Col md={props.isActual ? 1 : 2} className="mb-4">
-                  <img
+                  <img alt="Bandera Colombia"
                     width={70}
                     height={80}
                     style={{ objectFit: "contain" }}

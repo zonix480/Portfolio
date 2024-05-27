@@ -24,7 +24,7 @@ const Experience = () => {
             rol={"Especialista IT I"}
             time={"Enero 2022 - actualidad"}
             description={
-              "Apoyo sobre apps de la empresa, apoyo sobre integraciones continuas y mejoras sobre procesos existentes."
+              "Apoyo sobre apps de la empresa, apoyo sobre integraciones continuas y mejoras sobre procesos existentes. Actualmente apoyo como Lider Tecnico en la App Empresas del banco"
             }
           ></CardExperience>
         </Col>
@@ -39,7 +39,7 @@ const Experience = () => {
             rol={"Senior Developer"}
             time={"2022"}
             description={
-              "Apoyo sobre apps de la empresa, apoyo sobre integraciones continuas y mejoras sobre procesos existentes."
+              "Desarrolle front-end en React, Angular, etc..., trabaje en más de 5 proyectos. Desarrolle apis en loopback, aplicaciones moviles hibridas. Testing y Qa."
             }
           ></CardExperience>
           <CardExperience
@@ -49,7 +49,7 @@ const Experience = () => {
             rol={"Semi Senior Developer"}
             time={"2018-2021"}
             description={
-              "Apoyo sobre apps de la empresa, apoyo sobre integraciones continuas y mejoras sobre procesos existentes."
+              "Desarrolle front-end en React, Angular, etc..., trabaje en más de 5 proyectos. Desarrolle apis en loopback, aplicaciones moviles hibridas. Testing y Qa."
             }
           ></CardExperience>
         </Col>
@@ -61,7 +61,7 @@ const Experience = () => {
             rol={"Semi Senior Developer"}
             time={"2021-2022"}
             description={
-              "Apoyo sobre apps de la empresa, apoyo sobre integraciones continuas y mejoras sobre procesos existentes."
+              "Desarrollo de plataforma utilizada por la empresa para su gestión utilizando Laravel y Angular"
             }
           ></CardExperience>
           <CardExperience
@@ -69,9 +69,9 @@ const Experience = () => {
             name="Freelance"
             logo={freelance}
             rol={"Semi Senior Developer"}
-            time={"2021-2022"}
+            time={"2017-2018"}
             description={
-              "Apoyo sobre apps de la empresa, apoyo sobre integraciones continuas y mejoras sobre procesos existentes."
+              "Desarrolle gran variedad de paginas web sencillas en wordpress, asi como aplicaciones de funcionalidad basica en Ionic"
             }
           ></CardExperience>
         </Col>

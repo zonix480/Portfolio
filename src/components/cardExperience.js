@@ -13,7 +13,7 @@ const CardExperience = (props) => {
     <Container>
         <Row>
             <Col md={props.isActual ? 1 : 2}>
-            <img width={70} height={80}  style={{ objectFit:"contain"}} src={props.logo}></img> 
+            <img alt="logo" width={70} height={80}  style={{ objectFit:"contain"}} src={props.logo}></img> 
             </Col>
             <Col className="text-left" style={{alignSelf:"center"}}>
             <h4 className="white">{props.name}</h4>

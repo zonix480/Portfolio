@@ -15,6 +15,7 @@ function App() {
         <section id="home" style={{height: '90vh'}}>
           <Home/>
         </section>
+        <hr></hr>
         <section id="experience" >
           <Experience></Experience>
         </section>
