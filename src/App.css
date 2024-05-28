@@ -20,8 +20,8 @@ section {
 }
 
 hr{
-  border: 2px solid #4A9D9C;
-  margin: 0px 30px 0px 30px;
+  border: 2px solid #4A9D9C !important;
+  margin: 0px 30px 0px 30px !important;
 }
 
 
