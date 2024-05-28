@@ -30,6 +30,7 @@ const Contact = (props) => {
           <AttentionSeeker
             className="lexend shadowWhite "
             style={{
+              borderBottom:"5px solid #4A9D9C",
               backgroundColor: "white",
               borderRadius: "25px",
               height: props.isActual && "90%",
@@ -40,7 +41,7 @@ const Contact = (props) => {
             }}
             effect={"tada"}
           >
-            <Container >
+            <Container  >
                 <div className="d-grid justify-content-end">
                     <a alt="Download CV" onClick={handleDownload}>
                 <Icon.Download style={{position:"absolute",right:30, cursor:"pointer"}} size={30} color="white"></Icon.Download></a>

@@ -2,6 +2,8 @@
 import React from 'react';
 import {useState, useEffect, useRef} from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
+import {isMobile, isTablet} from 'react-device-detect';
+
 import './components.css';
 const Header = () => {
   const [navBackground, setNavBackground] = useState(false)
@@ -20,7 +22,7 @@ const Header = () => {
       }
     }, [])
   return (
-    <Navbar fixed='top' className='p-3 lexend navbar-fixed-top' style={{ transition: '1s ease', backgroundColor: navBackground ? 'rgba(74, 157, 156, 1)' : 'transparent'}} variant="dark" expand="lg">
+    <Navbar fixed='top' className='p-3 lexend navbar-fixed-top' style={{ transition: '1s ease', backgroundColor: navBackground ? 'rgba(74, 157, 156, 1)' : isMobile || isTablet ? 'rgba(74, 157, 156, 1)' : 'transparent'}} variant="dark" expand="lg">
       <Navbar.Brand className='pl-4' style={{paddingLeft:'50px'}} href="#home">J</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse  id="basic-navbar-nav">

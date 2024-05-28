@@ -9,7 +9,7 @@ import AttentionSeeker from "react-awesome-reveal";
 const CardExperience = (props) => {
   return (
     <div  className="hvr-shrink" onClick={()=>{window.location.href =props.url}}>
-    <AttentionSeeker className="lexend shadowWhite " style={{backgroundColor:"white", borderRadius:"25px", height:props.isActual && '90%',padding:40, marginTop:'4%', marginBottom:'4%',backgroundColor:"#354656", cursor:"pointer"}}  effect={"tada"}>
+    <AttentionSeeker className="lexend shadowWhite " style={{backgroundColor:"white", borderRadius:"25px", height:props.isActual && '90%',padding:40, marginTop:'4%', marginBottom:'4%',backgroundColor:"#354656", cursor:"pointer", borderBottom:"5px solid #4A9D9C"}}  effect={"tada"}>
     <Container>
         <Row>
             <Col md={props.isActual ? 1 : 2}>
@@ -20,7 +20,7 @@ const CardExperience = (props) => {
             </Col>
         
         </Row>
-        <Row className="p-md-3">
+        <Row className="p-md-3" style={{height:198}}>
             <h1 className="" style={{color:"#D93D3D", fontSize:"30px"}}>{props.rol}</h1>
             <h5 className="white">
             {props.time}

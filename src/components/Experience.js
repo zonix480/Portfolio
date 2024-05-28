@@ -39,7 +39,7 @@ const Experience = () => {
             rol={"Senior Developer"}
             time={"2022"}
             description={
-              "Desarrolle front-end en React, Angular, etc..., trabaje en más de 5 proyectos. Desarrolle apis en loopback, aplicaciones moviles hibridas. Testing y Qa."
+              "Desarrollé front-end en React, Angular, etc..., trabaje en más de 5 proyectos. Desarrolle apis en loopback, aplicaciones moviles hibridas. Testing y Qa."
             }
           ></CardExperience>
           <CardExperience
