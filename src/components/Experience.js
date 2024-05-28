@@ -61,7 +61,7 @@ const Experience = () => {
             rol={"Semi Senior Developer"}
             time={"2021-2022"}
             description={
-              "Desarrollo de plataforma utilizada por la empresa para su gestión utilizando Laravel y Angular"
+              "Desarrollo de plataforma utilizada por la empresa para su gestión utilizando Laravel y Angular   "
             }
           ></CardExperience>
           <CardExperience

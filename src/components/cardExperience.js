@@ -20,7 +20,7 @@ const CardExperience = (props) => {
             </Col>
         
         </Row>
-        <Row className="p-md-3" style={{height:198}}>
+        <Row className="p-md-3" style={{height:"auto",minHeight:240}}>
             <h1 className="" style={{color:"#D93D3D", fontSize:"30px"}}>{props.rol}</h1>
             <h5 className="white">
             {props.time}
