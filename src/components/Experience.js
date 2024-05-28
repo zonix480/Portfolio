@@ -24,7 +24,7 @@ const Experience = () => {
             rol={"Especialista IT I"}
             time={"Enero 2022 - actualidad"}
             description={
-              "Apoyo sobre apps de la empresa, apoyo sobre integraciones continuas y mejoras sobre procesos existentes. Actualmente apoyo como Lider Tecnico en la App Empresas del banco"
+              "Apoyo sobre apps de la empresa, apoyo sobre integraciones continuas y mejoras sobre procesos existentes. Actualmente apoyo como Lider Tecnico en la App Empresas del banco."
             }
           ></CardExperience>
         </Col>
@@ -61,7 +61,7 @@ const Experience = () => {
             rol={"Semi Senior Developer"}
             time={"2021-2022"}
             description={
-              "Desarrollo de plataforma utilizada por la empresa para su gestión utilizando Laravel y Angular   "
+              "Desarrollo de plataforma utilizada por la empresa para su gestión utilizando Laravel y Angular."
             }
           ></CardExperience>
           <CardExperience
@@ -71,7 +71,7 @@ const Experience = () => {
             rol={"Semi Senior Developer"}
             time={"2017-2018"}
             description={
-              "Desarrolle gran variedad de paginas web sencillas en wordpress, asi como aplicaciones de funcionalidad basica en Ionic"
+              "Desarrolle gran variedad de paginas web sencillas en wordpress, asi como aplicaciones de funcionalidad basica en Ionic."
             }
           ></CardExperience>
         </Col>
